@@ -13,6 +13,5 @@ deployment:
     branch: v4
     commands:
       - git checkout master
-      - git pull
       - git merge master v4
       - git push origin master
